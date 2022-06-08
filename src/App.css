@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  animation: FadeIn 0.7s;
+}
+
+.link{
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  font-size: 25px;
+
+}
+
+
+@keyframes FadeIn {
+  from{
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+
+
+  /* Small */
+  @media (max-width: 767px) {   }
+  /* Medium */
+  @media (max-width: 991px) {   }
+  /* Large */
+  @media (max-width: 1199px) {   }
+
+
+  /*
+    open    == #3a5ab1 ==
+    red     == #d31336 ==
+    colse back  == #252131 ==
+*/
