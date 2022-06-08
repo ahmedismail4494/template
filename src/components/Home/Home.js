@@ -7,7 +7,7 @@ import {HomeSection, Content, Title2, Title3, ImageBox, Image, Info } from "./st
 const Home = () => {
   return (
     <div>
-          
+
       <HomeSection >
         <div className="container">
 
@@ -18,17 +18,17 @@ const Home = () => {
               <Image src={MyImageLogo} alt="" />
             </ImageBox>
             <Info>
-              I Creat a Responsive Web Design From A to Z Its Responsive on All Screens
-              By Using Many Of Technology And Program Language's Like (HTNL, CSS, JS, React, Redux,..... ) and it's has creative and modern shape
-              <br /> <br />
-              i'm work on my self all time to get the latest technologey for craeat
-              the most better design and i am willing to be a fullStack web developer
+              I Create a Responsive Web Design From A to Z It's Responsive On All Screens By Using Many Of The Technology And Program Languages Like
+              (HTNL, CSS, JS, React, Redux) and it's creative and modern shape.
+                <br /> <br />
+              I'm working on myself all the time to get the latest technology for
+              creating the best designs and I am willing to be a full-stack web developer.
             </Info>
           </Content>
 
         </div>
       </HomeSection>
-    
+
     </div>
   )
 }
